@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+aside {
+    color: darkred;
+    float: right;
+}
+
+#header{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h1 {
+    color: white;
+    font-size: 60px;
+    padding : 20px;
+    background-color: black;
+    text-align: center;
+
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.img-info {
+    width: 100%;
+}
+
+h2 {
+    padding:30px 10px 50px;
+    font-family: Arial;
+    font-size: 50px;
+    color:#111;
+    line-height: 44px;
+    text-align: left;
+   
+   
+}
+
+
+p {
+    padding: 20px 30px 20px;
+    font-family: Arial;
+    font-size: 16px;
+    color:#111;
+    line-height: 24px;
+    text-align: left;
+}
+
+.me {
+    width: 100%;
+}
+
+
+#container {
+    border: 5px solid red;
+    margin: 15px;
+    background-color: gray;
+}
+
+#container2 {
+   border: 5px solid green;
+   margin: 15px;
+   background-color: black;
+   padding: 40px;
+}
+#one {
+    text-align: center;
+    margin: 10px;
+    padding: 5%;
+    font-size: 150%;
+    background-color: darkblue;
+    
+
+
+}
+
+#two {
+   text-align: center;
+   margin: 10px;
+   padding: 5%;
+   font-size: 150%;
+   background-color: darkred;
+   
+}
+
+#three {
+   text-align: center;
+   margin: 10px;
+    padding: 5%;
+    font-size: 150%;
+    background-color:darkorchid;
+   
+
+}
+
+footer {
+    background-color: brown;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media only screen and (min-width: 768px) {
+
+.wrapper {
+    width: 600px;
+    margin: 0 auto;
+}
+
+h2 {
+    padding: 20px 0px 0px;
+}
+
+
+p {
+    padding: 20px 0px 0px;
+    
+}
+
+.me {
+    padding-top: 30px;
+}
+
+}
