@@ -21,7 +21,9 @@ h1 {
     text-align: center;
 
 }
-
+.aa {
+    text-align: right;
+}
 .wrapper {
     width: 100%;
 }
